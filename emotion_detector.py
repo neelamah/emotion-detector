@@ -37,3 +37,12 @@ def emotion_detector(text):
         "sadness": emotions['sadness'],
         "dominant_emotion": dominant
     }
+    
+    
+if __name__ == "__main__":
+    text = "I love learning AI"
+
+    result = emotion_detector(text)
+
+    print("Input:", text)
+    print("Output:", result)

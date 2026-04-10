@@ -16,4 +16,14 @@ def detect():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    print("Import successful")
+
+    test_text = "I love this course"
+    print("Testing emotion detector...")
+
+    result = emotion_detector(test_text)
+
+    print("Input:", test_text)
+    print("Output:", result)
+
+    print("Test completed successfully")
