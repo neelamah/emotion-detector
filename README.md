@@ -1,28 +1,25 @@
-# emotion-detector
-📌 Emotion Detector – Project Summary
+# Final Project
 
-This project is an AI-based web application that detects human emotions from text input using IBM Watson NLP. The application analyzes user-provided text and returns emotion scores for anger, disgust, fear, joy, and sadness, along with the dominant emotion.
+## Emotion Detector Project
 
-The backend is developed using Python and Flask, while the emotion analysis is powered by a Watson NLP API. The application is designed with proper error handling, unit testing, and structured output formatting to ensure reliability and usability.
+### Project Summary
+This is the Final Project for the course, which focuses on building an Emotion Detection application using NLP techniques. The system analyzes text input and predicts the associated emotion.
 
-🚀 Features
-Detects emotions from user input text
-Returns detailed emotion scores
-Identifies the dominant emotion
-REST API built using Flask
-Includes error handling for invalid input
-Unit tests for validation
-Static code analysis using pylint
-🛠️ Technologies Used
-Python
-Flask
-Requests
-IBM Watson NLP
-Pylint
-▶️ How to Run
-Clone the repository
-Create a virtual environment
-Install dependencies using pip install -r requirements.txt
-Run the Flask app using python app.py
+### Objective
+The goal of this Final Project is to demonstrate the ability to build, deploy, and test an emotion detection model using Python and web services.
 
-Open browser and test:
+### Technologies Used
+- Python
+- Flask / Server-side framework
+- NLP (Natural Language Processing)
+- Watson NLP API (or mock service)
+- JSON handling
+
+### Features
+- Accepts user input text
+- Detects emotions such as joy, anger, sadness, fear, etc.
+- Returns emotion scores
+- Handles error cases and invalid input
+
+### Project Status
+This is the completed Final Project submission.
